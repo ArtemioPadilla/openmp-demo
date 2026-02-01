@@ -36,6 +36,11 @@
 *.exe
 *.out
 *.app
+RegionesParalelas
+DefiniendoNHilos
+p_sum
+system_info
 
 # debug information files
 *.dwo
+*.dSYM
