@@ -6,7 +6,7 @@
     #define omp_get_thread_num() 0
 #endif
 
-#define N 100000
+#define N 1000
 #define chunk 100
 #define mostrar 10
 

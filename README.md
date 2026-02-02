@@ -8,20 +8,31 @@ Simple OpenMP examples for macOS.
 brew install gcc
 ```
 
+## Programs
+
+| File | Description |
+|------|-------------|
+| `RegionesParalelas.cpp` | Basic parallel regions |
+| `DefiniendoNHilos.cpp` | Custom thread count |
+| `p_sum.cpp` | Parallel array sum |
+| `system_info.cpp` | Show system parallelism info |
+
 ## Build & Run
 
 ```bash
-make RegionesParalelas
-./RegionesParalelas
+make <program>
+./<program>
+```
 
-make DefiniendoNHilos
-./DefiniendoNHilos
+Example:
+```bash
+make p_sum && ./p_sum
 ```
 
 ## Control Threads
 
 ```bash
-OMP_NUM_THREADS=4 ./RegionesParalelas
+OMP_NUM_THREADS=4 ./p_sum
 ```
 
 ## Clean
